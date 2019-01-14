@@ -41,6 +41,13 @@
 			<version>1.5.0-b01</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/com.github.stephenc.monte/monte-screen-recorder -->
+		<dependency>
+			<groupId>com.github.stephenc.monte</groupId>
+			<artifactId>monte-screen-recorder</artifactId>
+			<version>0.7.7.0</version>
+		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-io -->
 		<dependency>
 			<groupId>org.apache.commons</groupId>
@@ -142,9 +149,9 @@
 
 
 	</dependencies>
-	
-	
-<build>
+
+
+	<build>
 
 		<plugins>
 
@@ -162,7 +169,7 @@
 			</plugin>
 
 
-		
+
 			<!-- Post-Man plugin -->
 			<plugin>
 				<groupId>ch.fortysix</groupId>
@@ -184,14 +191,15 @@
 							<!-- Email subject -->
 							<subject>Flipkart Test Automation Report</subject>
 
-							<!-- failonerror  => Set to true. If we get error in build it will stop sending email -->
+							<!-- failonerror => Set to true. If we get error in build it will 
+								stop sending email -->
 							<failonerror>true</failonerror>
 
 							<!-- host -->
 							<!-- mailhost => Specify host name smtp.gmail.com for Gmail -->
 							<mailhost>smtp.gmail.com</mailhost>
 							<!-- port of the host -->
-							<!-- mailport => Port number as 465 and mailssl => set to true  -->
+							<!-- mailport => Port number as 465 and mailssl => set to true -->
 							<mailport>465</mailport>
 							<mailssl>true</mailssl>
 							<mailAltConfig>true</mailAltConfig>
@@ -199,12 +207,13 @@
 							<!-- Email Authentication(USername and Password) -->
 							<!-- mailuser => Enter Username for the mail account -->
 							<mailuser>yourname@gmail.com</mailuser>
-							<!--mailpassword =>Enter Password to access the mail-->
+							<!--mailpassword =>Enter Password to access the mail -->
 							<mailpassword>your Password</mailpassword>
 
 							<receivers>
 								<!-- To Email address -->
-								<!--receiver => Give the Email address to whom you want to send the report-->
+								<!--receiver => Give the Email address to whom you want to send the 
+									report -->
 								<receiver>To Email</receiver>
 								<receiver>To Email</receiver>
 							</receivers>
@@ -212,14 +221,17 @@
 							<fileSets>
 								<fileSet>
 									<!-- Report directory Path -->
-									<!--directory => Give the Report Directory, where it picks up the report -->
-									<directory>C:\\Users\\Mayur Uddhav Adhude\\eclipse-workspace\\flipkart.com\\target\\surefire-reports</directory>
+									<!--directory => Give the Report Directory, where it picks up the 
+										report -->
+									<directory>C:\\Users\\Mayur Uddhav
+										Adhude\\eclipse-workspace\\flipkart.com\\target\\surefire-reports</directory>
 									<includes>
 										<!-- Report file name -->
-										<!--include => Give the Report Name. We can user Regular Expression to send the all html files in directory “**/*.html”-->
+										<!--include => Give the Report Name. We can user Regular Expression 
+											to send the all html files in directory “**/*.html” -->
 										<include>Extent.html</include>
 									</includes>
-									
+
 								</fileSet>
 							</fileSets>
 
