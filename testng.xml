@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="flipkart.com" guice-stage="DEVELOPMENT">
+
+	<listeners>
+	    <listener 
+	        class-name="com.qa.freelance.firstcry.com.RetryAnalyzerListener.TestRetryAnalyzerListener" />
+		<listener
+			class-name="com.qa.freelance.firstcry.com.TestNGListener.TestNGListener" />
+		<listener
+			class-name="com.qa.freelance.firstcry.com.ExtentReportListener.ExtentReporterNG" />
+
+	</listeners>
+
+
+	<test name="Login Pop Up Test">
+		<classes>
+			<class
+				name="com.qa.qualitasGlobal.flipkart.testcases.PopUpLoginPageTest" />
+		</classes>
+	</test> 
+	<test name="Home page Test">
+		<classes>
+			<class
+				name="com.qa.qualitasGlobal.flipkart.testcases.HomePageTest" />
+		</classes>
+	</test>
+
+
+
+</suite> <!-- Suite -->

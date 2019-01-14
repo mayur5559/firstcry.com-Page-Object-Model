@@ -1,0 +1,233 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>freelance</groupId>
+	<artifactId>firstcry.com</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>firstcry.com</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>10.0.1</maven.compiler.source>
+		<maven.compiler.target>10.0.1</maven.compiler.target>
+	</properties>
+
+	<dependencies>
+
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.141.59</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.14.3</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/javax.mail/mail -->
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.5.0-b01</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-io -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>1.3.2</version>
+		</dependency>
+
+
+
+		<!-- Dependency for POI API -->
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>4.0.1</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>4.0.1</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml-schemas</artifactId>
+			<version>4.0.1</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>ooxml-schemas</artifactId>
+			<version>1.3</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>dom4j</groupId>
+			<artifactId>dom4j</artifactId>
+			<version>1.6.1</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.apache.xmlbeans</groupId>
+			<artifactId>xmlbeans</artifactId>
+			<version>3.0.2</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-scratchpad</artifactId>
+			<version>4.0.1</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>openxml4j</artifactId>
+			<version>1.0-beta</version>
+		</dependency>
+
+
+		<!-- Dependency for POI API END -->
+
+
+
+
+		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.11.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>2.11.1</version>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+		<dependency>
+			<groupId>com.relevantcodes</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>2.41.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>21.0</version>
+		</dependency>
+
+
+	</dependencies>
+	
+	
+<build>
+
+		<plugins>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.21.0</version>
+				<configuration>
+
+					<reuseForks>true</reuseForks>
+					<suiteXmlFiles>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+
+
+		
+			<!-- Post-Man plugin -->
+			<plugin>
+				<groupId>ch.fortysix</groupId>
+				<artifactId>maven-postman-plugin</artifactId>
+				<executions>
+					<execution>
+
+						<id>send a mail</id>
+						<phase>test</phase>
+						<goals>
+							<goal>send-mail</goal>
+						</goals>
+						<inherited>true</inherited>
+
+						<configuration>
+							<!-- From Email address -->
+							<from>mayur.adhude@gmail.com</from>
+
+							<!-- Email subject -->
+							<subject>Flipkart Test Automation Report</subject>
+
+							<!-- failonerror  => Set to true. If we get error in build it will stop sending email -->
+							<failonerror>true</failonerror>
+
+							<!-- host -->
+							<!-- mailhost => Specify host name smtp.gmail.com for Gmail -->
+							<mailhost>smtp.gmail.com</mailhost>
+							<!-- port of the host -->
+							<!-- mailport => Port number as 465 and mailssl => set to true  -->
+							<mailport>465</mailport>
+							<mailssl>true</mailssl>
+							<mailAltConfig>true</mailAltConfig>
+
+							<!-- Email Authentication(USername and Password) -->
+							<!-- mailuser => Enter Username for the mail account -->
+							<mailuser>yourname@gmail.com</mailuser>
+							<!--mailpassword =>Enter Password to access the mail-->
+							<mailpassword>your Password</mailpassword>
+
+							<receivers>
+								<!-- To Email address -->
+								<!--receiver => Give the Email address to whom you want to send the report-->
+								<receiver>To Email</receiver>
+								<receiver>To Email</receiver>
+							</receivers>
+
+							<fileSets>
+								<fileSet>
+									<!-- Report directory Path -->
+									<!--directory => Give the Report Directory, where it picks up the report -->
+									<directory>C:\\Users\\Mayur Uddhav Adhude\\eclipse-workspace\\flipkart.com\\target\\surefire-reports</directory>
+									<includes>
+										<!-- Report file name -->
+										<!--include => Give the Report Name. We can user Regular Expression to send the all html files in directory “**/*.html”-->
+										<include>Extent.html</include>
+									</includes>
+									
+								</fileSet>
+							</fileSets>
+
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+		</plugins>
+	</build>
+</project>
