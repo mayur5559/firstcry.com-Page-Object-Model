@@ -21,7 +21,6 @@ import com.qa.freelance.firstcry.com.Base.TestBase;
 public class TestRetryAnalyzerListener extends TestBase implements IAnnotationTransformer {
 
 	@SuppressWarnings("rawtypes")
-	@Override
 	public void transform(ITestAnnotation annotation, Class testClass, Constructor testConstructor, Method testMethod) {
 		
 		annotation.setRetryAnalyzer(TestRetryAnalyzer.class);

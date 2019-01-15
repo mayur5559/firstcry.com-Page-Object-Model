@@ -37,7 +37,6 @@ public class TestRetryAnalyzer extends TestBase implements IRetryAnalyzer {
     
     
    // TestNG will call this method every time a test fails.
-	@Override
 	public boolean retry(ITestResult result) 
 	{
 		if (counter < retryMaxLimit) 

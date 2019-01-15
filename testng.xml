@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="flipkart.com" guice-stage="DEVELOPMENT">
+<suite name="firstcry.com" guice-stage="DEVELOPMENT">
 
 	<listeners>
 	    <listener 
@@ -13,18 +13,13 @@
 	</listeners>
 
 
-	<test name="Login Pop Up Test">
+	<test name="Date Picker Test">
 		<classes>
 			<class
-				name="com.qa.qualitasGlobal.flipkart.testcases.PopUpLoginPageTest" />
+				name="fcom.qa.freelance.firstcry.com.TestCases.DatePickerPageTest" />
 		</classes>
 	</test> 
-	<test name="Home page Test">
-		<classes>
-			<class
-				name="com.qa.qualitasGlobal.flipkart.testcases.HomePageTest" />
-		</classes>
-	</test>
+	
 
 
 

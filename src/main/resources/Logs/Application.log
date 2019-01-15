@@ -1,0 +1,30 @@
+2019-01-15 23:53:02,312 +0530 [main] INFO  (Log.java:29) - log4j.xml File configure properly
+2019-01-15 23:53:02,331 +0530 [main] INFO  (Log.java:29) - Gets Browser Name From Config.properties File 
+2019-01-15 23:53:02,332 +0530 [main] INFO  (Log.java:29) - Sets The Properties For Chrome Driver OR Browser 
+2019-01-15 23:53:12,383 +0530 [main] INFO  (Log.java:29) - Chrome Driver Object Created
+2019-01-15 23:53:12,426 +0530 [main] INFO  (Log.java:29) - EventFiringWebDriver Object Created And Passes The Driver As an Argument
+2019-01-15 23:53:12,479 +0530 [main] INFO  (Log.java:29) - Properties Class Object Created
+2019-01-15 23:53:12,479 +0530 [main] INFO  (Log.java:29) - FileInputeStrean Class Object Created
+2019-01-15 23:53:12,480 +0530 [main] INFO  (Log.java:29) - Config.properties File Get Loaded
+2019-01-15 23:53:12,481 +0530 [main] INFO  (Log.java:29) - WebEventLister Object Created
+2019-01-15 23:53:12,481 +0530 [main] INFO  (Log.java:29) - WebEventLister Registers With EventFiringWebDriver 
+2019-01-15 23:53:13,765 +0530 [main] INFO  (Log.java:29) - Maximized The Window
+2019-01-15 23:53:13,774 +0530 [main] INFO  (Log.java:29) - Deleted All Cookies
+2019-01-15 23:53:13,791 +0530 [main] INFO  (Log.java:29) - pageLoadTimeout
+2019-01-15 23:53:13,796 +0530 [main] INFO  (Log.java:29) - Before navigating to: 'https://www.makemytrip.com/'
+2019-01-15 23:53:46,210 +0530 [main] INFO  (Log.java:29) - Navigated to:'https://www.makemytrip.com/'
+2019-01-15 23:53:46,212 +0530 [main] INFO  (Log.java:29) - Gets The Project URL
+2019-01-15 23:53:46,381 +0530 [main] INFO  (Log.java:29) - Properties Class Object Created
+2019-01-15 23:53:46,382 +0530 [main] INFO  (Log.java:29) - FileInputeStrean Class Object Created
+2019-01-15 23:53:46,383 +0530 [main] INFO  (Log.java:29) - Config.properties File Get Loaded
+2019-01-15 23:53:47,144 +0530 [main] INFO  (Log.java:29) - initializing WebElements of datepicker
+2019-01-15 23:53:47,564 +0530 [main] INFO  (Log.java:29) - Trying to find Element By : By.xpath: //*[@id='hp-widget__depart']
+2019-01-15 23:53:47,591 +0530 [main] INFO  (Log.java:29) - Found Element By : By.xpath: //*[@id='hp-widget__depart']
+2019-01-15 23:53:47,598 +0530 [main] INFO  (Log.java:29) - Trying to click on: [[ChromeDriver: chrome on XP (61fcf84eca5d151f7f9c562c93bde473)] -> xpath: //*[@id='hp-widget__depart']]
+2019-01-15 23:53:47,829 +0530 [main] INFO  (Log.java:29) - Clicked on: [[ChromeDriver: chrome on XP (61fcf84eca5d151f7f9c562c93bde473)] -> xpath: //*[@id='hp-widget__depart']]
+2019-01-15 23:53:47,830 +0530 [main] INFO  (Log.java:29) - Trying to find Element By : By.xpath: //div[@class][@class='dateFilter hasDatepicker']//div//div[1]//table//tbody
+2019-01-15 23:53:47,864 +0530 [main] INFO  (Log.java:29) - Found Element By : By.xpath: //div[@class][@class='dateFilter hasDatepicker']//div//div[1]//table//tbody
+2019-01-15 23:53:47,866 +0530 [main] INFO  (Log.java:29) - Trying to find Element By : By.tagName: td
+2019-01-15 23:53:48,418 +0530 [main] INFO  (Log.java:29) - Found Element By : By.tagName: td
+2019-01-15 23:53:49,226 +0530 [main] INFO  (Log.java:29) - Trying to click on: [[[[ChromeDriver: chrome on XP (61fcf84eca5d151f7f9c562c93bde473)] -> xpath: //div[@class][@class='dateFilter hasDatepicker']//div//div[1]//table//tbody]] -> tag name: td]
+2019-01-15 23:53:49,451 +0530 [main] INFO  (Log.java:29) - Clicked on: [[[[ChromeDriver: chrome on XP (61fcf84eca5d151f7f9c562c93bde473)] -> xpath: //div[@class][@class='dateFilter hasDatepicker']//div//div[1]//table//tbody]] -> tag name: td]

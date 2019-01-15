@@ -141,11 +141,13 @@
 			<version>2.41.2</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
-			<version>21.0</version>
+			<version>27.0.1-jre</version>
 		</dependency>
+
 
 
 	</dependencies>
@@ -223,8 +225,7 @@
 									<!-- Report directory Path -->
 									<!--directory => Give the Report Directory, where it picks up the 
 										report -->
-									<directory>C:\\Users\\Mayur Uddhav
-										Adhude\\eclipse-workspace\\flipkart.com\\target\\surefire-reports</directory>
+									<directory>C:\\Users\\Mayur Uddhav Adhude\\eclipse-workspace\\flipkart.com\\target\\surefire-reports</directory>
 									<includes>
 										<!-- Report file name -->
 										<!--include => Give the Report Name. We can user Regular Expression 
