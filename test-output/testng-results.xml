@@ -1,21 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-01-15T18:23:02Z" name="Default suite" finished-at="2019-01-15T18:23:49Z" duration-ms="47416">
+  <suite started-at="2019-01-15T19:42:16Z" name="firstcry.com" finished-at="2019-01-15T19:43:37Z" duration-ms="81740">
     <groups>
     </groups>
-    <test started-at="2019-01-15T18:23:02Z" name="Default test" finished-at="2019-01-15T18:23:49Z" duration-ms="47416">
+    <test started-at="2019-01-15T19:42:16Z" name="Date Picker Test FF" finished-at="2019-01-15T19:42:58Z" duration-ms="42727">
       <class name="fcom.qa.freelance.firstcry.com.TestCases.DatePickerPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:fcom.qa.freelance.firstcry.com.TestCases.DatePickerPageTest@66498326]" started-at="2019-01-15T18:23:02Z" name="setUp" finished-at="2019-01-15T18:23:47Z" duration-ms="45060" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:fcom.qa.freelance.firstcry.com.TestCases.DatePickerPageTest@3059cbc]" started-at="2019-01-15T19:42:16Z" name="setUp" finished-at="2019-01-15T19:42:54Z" duration-ms="38822" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="datePickerTest()[pri:1, instance:fcom.qa.freelance.firstcry.com.TestCases.DatePickerPageTest@66498326]" started-at="2019-01-15T18:23:47Z" name="datePickerTest" finished-at="2019-01-15T18:23:49Z" duration-ms="2307" status="PASS">
+        <test-method signature="datePickerTest()[pri:1, instance:fcom.qa.freelance.firstcry.com.TestCases.DatePickerPageTest@3059cbc]" started-at="2019-01-15T19:42:54Z" name="datePickerTest" finished-at="2019-01-15T19:42:58Z" duration-ms="3860" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- datePickerTest -->
       </class> <!-- fcom.qa.freelance.firstcry.com.TestCases.DatePickerPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Date Picker Test FF -->
+    <test started-at="2019-01-15T19:42:16Z" name="Date Picker Test chrome" finished-at="2019-01-15T19:43:37Z" duration-ms="81740">
+      <class name="fcom.qa.freelance.firstcry.com.TestCases.DatePickerPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:fcom.qa.freelance.firstcry.com.TestCases.DatePickerPageTest@b62d79]" started-at="2019-01-15T19:42:16Z" name="setUp" finished-at="2019-01-15T19:42:48Z" duration-ms="32795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="datePickerTest()[pri:1, instance:fcom.qa.freelance.firstcry.com.TestCases.DatePickerPageTest@b62d79]" started-at="2019-01-15T19:42:48Z" name="datePickerTest" finished-at="2019-01-15T19:42:59Z" duration-ms="10323" status="SKIP">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[The element reference of <td class=" ui-datepicker-week-end "> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIONHEART', ip: '192.168.43.190', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 11940, moz:profile: C:\Users\Mayur Uddhav Adhud..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0967d9b8-08e3-473f-b5de-4a6d0d1c9c2b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: The element reference of <td class=" ui-datepicker-week-end "> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIONHEART', ip: '192.168.43.190', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 11940, moz:profile: C:\Users\Mayur Uddhav Adhud..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0967d9b8-08e3-473f-b5de-4a6d0d1c9c2b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+at com.sun.proxy.$Proxy16.click(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+at com.qa.freelance.firstcry.com.Pages.DatePickerPage.datePicker(DatePickerPage.java:67)
+at fcom.qa.freelance.firstcry.com.TestCases.DatePickerPageTest.datePickerTest(DatePickerPageTest.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:844)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datePickerTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:fcom.qa.freelance.firstcry.com.TestCases.DatePickerPageTest@b62d79]" started-at="2019-01-15T19:42:59Z" name="setUp" finished-at="2019-01-15T19:43:36Z" duration-ms="36809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="datePickerTest()[pri:1, instance:fcom.qa.freelance.firstcry.com.TestCases.DatePickerPageTest@b62d79]" started-at="2019-01-15T19:43:36Z" name="datePickerTest" finished-at="2019-01-15T19:43:37Z" duration-ms="1782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datePickerTest -->
+      </class> <!-- fcom.qa.freelance.firstcry.com.TestCases.DatePickerPageTest -->
+    </test> <!-- Date Picker Test chrome -->
+  </suite> <!-- firstcry.com -->
 </testng-results>

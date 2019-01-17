@@ -12,7 +12,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
-
 import com.qa.freelance.firstcry.com.Helper.Log;
 import com.qa.freelance.firstcry.com.Helper.WaitHelper;
 import com.qa.freelance.firstcry.com.WebEventListener.WebEventListener;
@@ -64,6 +63,7 @@ public class TestBase {
 		}
 		String browserName = prop.getProperty("browser");
 		Log.info("Gets Browser Name From Config.properties File ");
+		
 		
 		if(browserName.equals("chrome")){
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\main\\resources\\Executables\\chromedriver.exe");

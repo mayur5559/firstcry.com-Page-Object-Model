@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="firstcry.com" guice-stage="DEVELOPMENT">
+<suite name="firstcry.com" parallel="tests" thread-count="2" preserve-order="true">
 
 	<listeners>
 	    <listener 
@@ -13,12 +13,21 @@
 	</listeners>
 
 
-	<test name="Date Picker Test">
+	<test name="Date Picker Test chrome">
+	<parameter name="browserName" value="chrome"/>
 		<classes>
 			<class
 				name="fcom.qa.freelance.firstcry.com.TestCases.DatePickerPageTest" />
 		</classes>
 	</test> 
+	
+	<test name="Date Picker Test FF">
+	<parameter name="browserName1" value="FF"/>
+		<classes>
+			<class
+				name="fcom.qa.freelance.firstcry.com.TestCases.DatePickerPageTest" />
+		</classes>
+	</test>
 	
 
 
