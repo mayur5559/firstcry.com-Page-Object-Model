@@ -3,8 +3,8 @@
 <suite name="firstcry.com" parallel="tests" thread-count="2" preserve-order="true">
 
 	<listeners>
-	    <listener 
-	        class-name="com.qa.freelance.firstcry.com.RetryAnalyzerListener.TestRetryAnalyzerListener" />
+		<listener
+			class-name="com.qa.freelance.firstcry.com.RetryAnalyzerListener.TestRetryAnalyzerListener" />
 		<listener
 			class-name="com.qa.freelance.firstcry.com.TestNGListener.TestNGListener" />
 		<listener
@@ -13,22 +13,21 @@
 	</listeners>
 
 
-	<test name="Date Picker Test chrome">
-	<parameter name="browserName" value="chrome"/>
+	<test name="Login page Test chrome">
 		<classes>
 			<class
-				name="fcom.qa.freelance.firstcry.com.TestCases.DatePickerPageTest" />
-		</classes>
-	</test> 
-	
-	<test name="Date Picker Test FF">
-	<parameter name="browserName1" value="FF"/>
-		<classes>
-			<class
-				name="fcom.qa.freelance.firstcry.com.TestCases.DatePickerPageTest" />
+				name="fcom.qa.freelance.firstcry.com.TestCases.LoginPageTest" />
 		</classes>
 	</test>
-	
+
+	<!--<test name="Date Picker Test chrome"> <parameter name="browserName" 
+		value="chrome"/> <classes> <class name="fcom.qa.freelance.firstcry.com.TestCases.DatePickerPageTest" 
+		/> </classes> </test> -->
+
+	<!--<test name="Date Picker Test FF"> <parameter name="browserName1" value="FF"/> 
+		<classes> <class name="fcom.qa.freelance.firstcry.com.TestCases.DatePickerPageTest" 
+		/> </classes> </test> -->
+
 
 
 

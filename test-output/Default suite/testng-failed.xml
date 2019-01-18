@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="fcom.qa.freelance.firstcry.com.TestCases.DatePickerPageTest">
+      <class name="fcom.qa.freelance.firstcry.com.TestCases.LoginPageTest">
         <methods>
-          <include name="datePickerTest"/>
           <include name="setUp"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- fcom.qa.freelance.firstcry.com.TestCases.DatePickerPageTest -->
+      </class> <!-- fcom.qa.freelance.firstcry.com.TestCases.LoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

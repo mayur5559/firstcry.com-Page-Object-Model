@@ -35,11 +35,11 @@ public class TestBase {
 		{
 			
 			prop = new Properties();
-			Log.info("Properties Class Object Created");
+			//Log.info("Properties Class Object Created");
 			FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\resources\\configuration\\Config.properties");
-			Log.info("FileInputeStrean Class Object Created");
+			//Log.info("FileInputeStrean Class Object Created");
 			prop.load(ip);
-			Log.info("Config.properties File Get Loaded");
+			//Log.info("Config.properties File Get Loaded");
 			
 		} catch (FileNotFoundException e) {
 			Log.error("config.properties File Not Found In Given Directory");
@@ -53,6 +53,10 @@ public class TestBase {
 	
 	
 	public static void initialization() {
+		
+		
+		
+		
 		
 		try {
 			DOMConfigurator.configure("log4j.xml");

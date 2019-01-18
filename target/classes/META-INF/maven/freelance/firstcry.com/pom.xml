@@ -12,7 +12,7 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding>
 		<maven.compiler.source>${java.version}</maven.compiler.source>
 		<maven.compiler.target>${java.version}</maven.compiler.target>
 	</properties>
@@ -225,7 +225,7 @@
 							<from>mayur.adhude@gmail.com</from>
 
 							<!-- Email subject -->
-							<subject>Flipkart Test Automation Report</subject>
+							<subject>Firstcry Test Automation Report</subject>
 
 							<!-- failonerror => Set to true. If we get error in build it will 
 								stop sending email -->

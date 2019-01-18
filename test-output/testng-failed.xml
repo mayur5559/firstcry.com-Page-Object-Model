@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" parallel="tests" name="Failed suite [firstcry.com]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="com.qa.freelance.firstcry.com.RetryAnalyzerListener.TestRetryAnalyzerListener"/>
-    <listener class-name="com.qa.freelance.firstcry.com.TestNGListener.TestNGListener"/>
-    <listener class-name="com.qa.freelance.firstcry.com.ExtentReportListener.ExtentReporterNG"/>
-  </listeners>
-  <test thread-count="2" parallel="tests" name="Date Picker Test chrome(failed)">
-    <parameter name="browserName" value="chrome"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="fcom.qa.freelance.firstcry.com.TestCases.DatePickerPageTest">
+      <class name="fcom.qa.freelance.firstcry.com.TestCases.LoginPageTest">
         <methods>
-          <include name="datePickerTest"/>
           <include name="setUp"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- fcom.qa.freelance.firstcry.com.TestCases.DatePickerPageTest -->
+      </class> <!-- fcom.qa.freelance.firstcry.com.TestCases.LoginPageTest -->
     </classes>
-  </test> <!-- Date Picker Test chrome(failed) -->
-</suite> <!-- Failed suite [firstcry.com] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
