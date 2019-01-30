@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="firstcry.com"  preserve-order="true">
+<suite name="firstcry.com" guice-stage="DEVELOPMENT">
 
 	<listeners>
 		<listener
@@ -15,8 +15,7 @@
 
 	<test name="Login page Test">
 		<classes>
-			<class
-				name="com.qa.freelance.firstcry.com.TestCases.LoginPageTest" />
+			<class name="com.qa.freelance.firstcry.com.TestCases.LoginPageTest" />
 		</classes>
 	</test>
 
