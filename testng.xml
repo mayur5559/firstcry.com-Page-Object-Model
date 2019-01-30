@@ -16,7 +16,7 @@
 	<test name="Login page Test chrome">
 		<classes>
 			<class
-				name="fcom.qa.freelance.firstcry.com.TestCases.LoginPageTest" />
+				name="com.qa.freelance.firstcry.com.TestCases.LoginPageTest" />
 		</classes>
 	</test>
 

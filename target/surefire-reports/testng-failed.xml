@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [firstcry.com]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.qa.freelance.firstcry.com.RetryAnalyzerListener.TestRetryAnalyzerListener"/>
+    <listener class-name="com.qa.freelance.firstcry.com.TestNGListener.TestNGListener"/>
+    <listener class-name="com.qa.freelance.firstcry.com.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="Login page Test chrome(failed)" verbose="0">
+    <classes>
+      <class name="fcom.qa.freelance.firstcry.com.TestCases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- fcom.qa.freelance.firstcry.com.TestCases.LoginPageTest -->
+    </classes>
+  </test> <!-- Login page Test chrome(failed) -->
+</suite> <!-- Failed suite [firstcry.com] -->

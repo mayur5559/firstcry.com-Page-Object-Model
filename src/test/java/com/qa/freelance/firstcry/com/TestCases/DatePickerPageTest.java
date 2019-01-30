@@ -1,4 +1,4 @@
-package fcom.qa.freelance.firstcry.com.TestCases;
+package com.qa.freelance.firstcry.com.TestCases;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
