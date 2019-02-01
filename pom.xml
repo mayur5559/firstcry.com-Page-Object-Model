@@ -259,7 +259,7 @@
 									<!-- Report directory Path -->
 									<!--directory => Give the Report Directory, where it picks up the 
 										report -->
-									<directory>C:\\Users\\Mayur Uddhav Adhude\\eclipse-workspace\\firstcry.com\target\\surefire-reports</directory>
+									<directory>C:\\Users\\M.U Adhude\\Documents\\GitHub\\firstcry.com-Page-Object-Model\\target\\surefire-reports</directory>
 									<includes>
 										<!-- Report file name -->
 										<!--include => Give the Report Name. We can user Regular Expression 

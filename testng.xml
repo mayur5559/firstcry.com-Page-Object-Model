@@ -3,13 +3,9 @@
 <suite name="firstcry.com" guice-stage="DEVELOPMENT">
 
 	<listeners>
-		<listener
-			class-name="com.qa.freelance.firstcry.com.RetryAnalyzerListener.TestRetryAnalyzerListener" />
-		<listener
-			class-name="com.qa.freelance.firstcry.com.TestNGListener.TestNGListener" />
-		<listener
-			class-name="com.qa.freelance.firstcry.com.ExtentReportListener.ExtentReporterNG" />
-
+		<listener class-name="com.qa.freelance.firstcry.com.RetryAnalyzerListener.TestRetryAnalyzerListener" />
+		<listener class-name="com.qa.freelance.firstcry.com.TestNGListener.TestNGListener" />
+		<listener class-name="com.qa.freelance.firstcry.com.ExtentReportListener.ExtentReporterNG" />
 	</listeners>
 
 

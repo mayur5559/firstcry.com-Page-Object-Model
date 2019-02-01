@@ -54,10 +54,6 @@ public class TestBase {
 	
 	public static void initialization() {
 		
-		
-		
-		
-		
 		try {
 			DOMConfigurator.configure("log4j.xml");
 			Log.info("log4j.xml File configure properly");
@@ -116,9 +112,5 @@ public class TestBase {
 		
 		
 	}
-	
-
-	
-	
-	
+			
 }

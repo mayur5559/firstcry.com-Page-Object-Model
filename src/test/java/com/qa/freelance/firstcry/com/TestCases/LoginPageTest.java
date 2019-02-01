@@ -25,6 +25,18 @@ public class LoginPageTest extends TestBase{
 	}
 	
 	@Test(priority=1)
+	public void closeLoginPgTest() {
+		loginpage.closeloginpopup();
+		Assert.assertTrue(true, "Login page close Test Fail");
+	}
+	@Test(priority=2)
+	public void subscriptionClose() {
+		loginpage.closeloginpopup();
+		loginpage.denySubscriptionPopup(driver);
+		Assert.assertTrue(true, "Deny of subscription Test Fail");
+	}
+	
+	@Test(enabled=false)
 	public void loginTest() {
 		
 		loginpage.clickonLogin();
