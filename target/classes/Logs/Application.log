@@ -1,29 +1,23 @@
-2019-02-01 20:45:12,667 +0530 [main] INFO  (Log.java:29) - log4j.xml File configure properly
-2019-02-01 20:45:12,669 +0530 [main] INFO  (Log.java:29) - Gets Browser Name From Config.properties File 
-2019-02-01 20:45:12,670 +0530 [main] INFO  (Log.java:29) - Sets The Properties For Chrome Driver OR Browser 
-2019-02-01 20:45:15,097 +0530 [main] INFO  (Log.java:29) - Chrome Driver Object Created
-2019-02-01 20:45:15,098 +0530 [main] INFO  (Log.java:29) - EventFiringWebDriver Object Created And Passes The Driver As an Argument
-2019-02-01 20:45:15,100 +0530 [main] INFO  (Log.java:29) - WebEventLister Object Created
-2019-02-01 20:45:15,101 +0530 [main] INFO  (Log.java:29) - WebEventLister Registers With EventFiringWebDriver 
-2019-02-01 20:45:16,256 +0530 [main] INFO  (Log.java:29) - Maximized The Window
-2019-02-01 20:45:16,268 +0530 [main] INFO  (Log.java:29) - Deleted All Cookies
-2019-02-01 20:45:16,273 +0530 [main] INFO  (Log.java:29) - pageLoadTimeout
-2019-02-01 20:45:16,279 +0530 [main] INFO  (Log.java:29) - Before navigating to: 'http://www.firstcry.com/'
-2019-02-01 20:46:08,641 +0530 [main] INFO  (Log.java:29) - Navigated to:'http://www.firstcry.com/'
-2019-02-01 20:46:08,642 +0530 [main] INFO  (Log.java:29) - Gets The Project URL
-2019-02-01 20:46:08,647 +0530 [main] INFO  (Log.java:29) - Trying to find Element By : By.xpath: //div[@onclick='closelogin();'][@class='_pop_close _pop_reg_bg']
-2019-02-01 20:46:08,687 +0530 [main] INFO  (Log.java:29) - Found Element By : By.xpath: //div[@onclick='closelogin();'][@class='_pop_close _pop_reg_bg']
-2019-02-01 20:46:08,689 +0530 [main] INFO  (Log.java:29) - Trying to click on: [[ChromeDriver: chrome on XP (dbccbb4914813124fa9e3e80fac58ac0)] -> xpath: //div[@onclick='closelogin();'][@class='_pop_close _pop_reg_bg']]
-2019-02-01 20:46:08,845 +0530 [main] INFO  (Log.java:29) - Clicked on: [[ChromeDriver: chrome on XP (dbccbb4914813124fa9e3e80fac58ac0)] -> xpath: //div[@onclick='closelogin();'][@class='_pop_close _pop_reg_bg']]
-2019-02-01 20:46:08,847 +0530 [main] INFO  (Log.java:29) - Trying to find Element By : By.xpath: //button[@id='deny'][@class='button close']
-2019-02-01 20:47:08,944 +0530 [main] INFO  (Log.java:29) - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='deny'][@class='button close']"}
-  (Session info: chrome=71.0.3578.98)
-  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-5559', ip: '192.168.43.190', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\MD9C0~1.UAD\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58949}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
-Session ID: dbccbb4914813124fa9e3e80fac58ac0
-*** Element info: {Using=xpath, value=//button[@id='deny'][@class='button close']}
+2019-02-01 23:49:31,478 +0530 [main] INFO  (Log.java:29) - log4j.xml File configure properly
+2019-02-01 23:49:31,479 +0530 [main] INFO  (Log.java:29) - Gets Browser Name From Config.properties File 
+2019-02-01 23:49:31,480 +0530 [main] INFO  (Log.java:29) - Sets The Properties For Chrome Driver OR Browser 
+2019-02-01 23:49:33,986 +0530 [main] INFO  (Log.java:29) - Chrome Driver Object Created
+2019-02-01 23:49:33,987 +0530 [main] INFO  (Log.java:29) - EventFiringWebDriver Object Created And Passes The Driver As an Argument
+2019-02-01 23:49:33,989 +0530 [main] INFO  (Log.java:29) - WebEventLister Object Created
+2019-02-01 23:49:33,990 +0530 [main] INFO  (Log.java:29) - WebEventLister Registers With EventFiringWebDriver 
+2019-02-01 23:49:35,148 +0530 [main] INFO  (Log.java:29) - Maximized The Window
+2019-02-01 23:49:35,160 +0530 [main] INFO  (Log.java:29) - Deleted All Cookies
+2019-02-01 23:49:35,167 +0530 [main] INFO  (Log.java:29) - pageLoadTimeout
+2019-02-01 23:49:35,175 +0530 [main] INFO  (Log.java:29) - Before navigating to: 'http://www.firstcry.com/'
+2019-02-01 23:50:08,069 +0530 [main] INFO  (Log.java:29) - Navigated to:'http://www.firstcry.com/'
+2019-02-01 23:50:08,070 +0530 [main] INFO  (Log.java:29) - Gets The Project URL
+2019-02-01 23:50:08,077 +0530 [main] INFO  (Log.java:29) - Trying to find Element By : By.xpath: //div[@onclick='closelogin();'][@class='_pop_close _pop_reg_bg']
+2019-02-01 23:50:08,221 +0530 [main] INFO  (Log.java:29) - Found Element By : By.xpath: //div[@onclick='closelogin();'][@class='_pop_close _pop_reg_bg']
+2019-02-01 23:50:08,222 +0530 [main] INFO  (Log.java:29) - Trying to click on: [[ChromeDriver: chrome on XP (35590c5eb2b3345c80859af19211b907)] -> xpath: //div[@onclick='closelogin();'][@class='_pop_close _pop_reg_bg']]
+2019-02-01 23:50:08,408 +0530 [main] INFO  (Log.java:29) - Clicked on: [[ChromeDriver: chrome on XP (35590c5eb2b3345c80859af19211b907)] -> xpath: //div[@onclick='closelogin();'][@class='_pop_close _pop_reg_bg']]
+2019-02-01 23:50:08,414 +0530 [main] INFO  (Log.java:29) - Trying to find Element By : By.xpath: //iframe[@name='webpush-bubble']
+2019-02-01 23:50:08,487 +0530 [main] INFO  (Log.java:29) - Found Element By : By.xpath: //iframe[@name='webpush-bubble']
+2019-02-01 23:50:08,538 +0530 [main] INFO  (Log.java:29) - Trying to find Element By : By.xpath: //button[@id='deny'][@class='button close']
+2019-02-01 23:50:08,566 +0530 [main] INFO  (Log.java:29) - Found Element By : By.xpath: //button[@id='deny'][@class='button close']
+2019-02-01 23:50:08,568 +0530 [main] INFO  (Log.java:29) - Trying to click on: [[ChromeDriver: chrome on XP (35590c5eb2b3345c80859af19211b907)] -> xpath: //button[@id='deny'][@class='button close']]
+2019-02-01 23:50:08,804 +0530 [main] INFO  (Log.java:29) - Clicked on: [[ChromeDriver: chrome on XP (35590c5eb2b3345c80859af19211b907)] -> xpath: //button[@id='deny'][@class='button close']]
